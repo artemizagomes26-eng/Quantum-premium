@@ -1,4 +1,4 @@
--- Deobfuscated By DevAurora Code - https://discord.gg/9dAFZsxKPc
+-- Deobfuscated By estudant - https://discord.gg/9dAFZsxKPc
 -- Detected obfuscation: Luraph v15
 -- Hello UwU
 
@@ -8195,7 +8195,7 @@ Restock: %s
 			tbl16:CreateToggle(v30, "Auto Dodge Terror Shark", "DodgeTerror", true, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Auto Dodge Seabeast", "DodgefSeabeast", true, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Use M1 DragonStorm for Seabeast/ships", "UseDragonSforSeabeasts", false, { global = true })
-			tbl16:CreateSlider(v30, "Manual Speed", "ManualBoatSpeed", 20, 250, 150, { global = true, save = true })
+			tbl16:CreateSlider(v30, "Manual Speed", "ManualBoatSpeed", 20, 350, 200, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Manual Increase Boat Speed", "ManualIncreaseBoatSpeed", false, { global = true, save = true })
 			local Fishing = v29:addMenu("Fishing")
 			tbl16:CreateDropdown(Fishing, "Fishing Rods", "SelectedRod", 1, tbl17.RodsList or {}, { global = true })
