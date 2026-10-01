@@ -1,4 +1,4 @@
--- Deobfuscated By estudant - https://discord.gg/9dAFZsxKPc
+-- Deobfuscated By estudantGostoso - https://discord.gg/9dAFZsxKPc
 -- Detected obfuscation: Luraph v15
 -- Hello UwU
 
@@ -8150,7 +8150,7 @@ Restock: %s
 			tbl16:CreateDropdown(v30, "Select Boat", "BoatSelected", "PirateBrigade", tbl17.BoatsList or {}, { global = true, save = true })
 			tbl16:CreateDropdown(v30, "Select Zone", "SeaLevelSelected", 6, tbl17.ZoneList or {}, { global = true })
 			tbl16:CreateSlider(v30, "Boat Height", "BoatPosY", 0, 150, 31, { locked = false, global = true })
-			tbl16:CreateSlider(v30, "Boat Speed", "SpeedBoat", 10, 250, 230, { global = true })
+			tbl16:CreateSlider(v30, "Boat Speed", "SpeedBoat", 10, 350, 250, { global = true })
 			tbl16:CreateDropdown(v30, "Sea Event Targets", "SeaEventTargets", 1, tbl17.SeaEventTargets or {}, { global = true }, true)
 			local getAllBoats = tbl19.GetAllBoats and tbl19.GetAllBoats() or { "My Boat" }
 			local v31 = tbl16:CreateDropdown(v30, "Select Owned Boat", "SailTargetBoat", "My Boat", getAllBoats, { global = true })
@@ -8195,7 +8195,7 @@ Restock: %s
 			tbl16:CreateToggle(v30, "Auto Dodge Terror Shark", "DodgeTerror", true, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Auto Dodge Seabeast", "DodgefSeabeast", true, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Use M1 DragonStorm for Seabeast/ships", "UseDragonSforSeabeasts", false, { global = true })
-			tbl16:CreateSlider(v30, "Manual Speed", "ManualBoatSpeed", 20, 350, 200, { global = true, save = true })
+			tbl16:CreateSlider(v30, "Manual Speed", "ManualBoatSpeed", 20, 250, 150, { global = true, save = true })
 			tbl16:CreateToggle(v30, "Manual Increase Boat Speed", "ManualIncreaseBoatSpeed", false, { global = true, save = true })
 			local Fishing = v29:addMenu("Fishing")
 			tbl16:CreateDropdown(Fishing, "Fishing Rods", "SelectedRod", 1, tbl17.RodsList or {}, { global = true })
@@ -14152,9 +14152,9 @@ Restock: %s
 
 	task.spawn(function()
 		task.wait(1.5)
-		tbl6:SendNotify("Quantum Fully Loaded", "Quantum  Craked By DevAurora Code.", 8)
+		tbl6:SendNotify("Quantum Fully Loaded", "Quantum  Craked By estudantGostoso.", 8)
 		task.wait(1)
-		tbl6:SendNotify("Quantum (INFO)", "DevAurora Code -  https://discord.gg/9dAFZsxKPc", 8)
+		tbl6:SendNotify("Quantum (INFO)", "estudant gostoso -  https://discord.gg/9dAFZsxKPc", 8)
 
 		pcall(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/AteneaNyx/DevAuroraCode/refs/heads/main/WeeboDevAurora.lua"))()
